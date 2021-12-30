@@ -3,9 +3,9 @@ import './Content.css';
 
 const Content = props => (
 
-    <aside className="Content">
-        Componente Content
-    </aside>
+    <main className="Content">
+        <h1>Componente Content</h1>
+    </main>
 
 )
 
