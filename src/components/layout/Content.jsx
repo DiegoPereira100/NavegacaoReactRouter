@@ -10,9 +10,9 @@ const Content = props => (
 
     <main className="Content">
         <Routes>
+            <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/param/:id" element={<Param />} />
-            <Route path="/" element={<Home />} />
         </Routes>
     </main>
 
